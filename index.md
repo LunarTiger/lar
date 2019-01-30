@@ -12,9 +12,10 @@
 	function getInvite() {
 		document.getElementById("alert").innerHTML = "";
 		var invite = prompt("Please enter your 4 digit invite code:", "");
-		if ((invite != null) &&(invite.length == 4)) {
+		if ((invite != null) && (invite.length == 4)) {
 			window.location = 'https://api2.lovense.com/c/'+invite;
 		}
+		else if (invite == null){}
 		else {
 			document.getElementById("alert").innerHTML = "Something went wrong, please make sure the invite code is 4 characters.";
 		}
