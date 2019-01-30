@@ -1,0 +1,231 @@
+---
+---
+
+@font-face {
+    font-family: ComicSans;
+    src: url(/comic.ttf);
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid green;
+  -webkit-text-fill-color: green;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* @import "{{ site.theme }}"; */
+
+body {
+    font-family: ComicSans;
+    text-align:center;
+    background-image: none;
+    background-color: #000000;
+    color: #00be00;
+}
+
+footer {
+    font-family: ComicSans;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    background-color: #000000;
+    color: #00ff00;
+    border-top: 1px dashed #006900;
+}
+
+/* unvisited link */
+a:link {
+    color: #0ac139;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: #0ac139;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0ac139;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #0ac139;
+    text-decoration: underline;
+}
+
+a {
+    color: #0ac139;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #006900;
+}
+
+h2 {
+    color: #006900;
+}
+
+h3 {
+    color: #00be00;
+}
+
+h4 {
+    color: #006900;
+}
+
+h5 {
+    color: #006900;
+}
+
+h6 {
+    color: #00ff00;
+}
+
+hr { 
+    border-top: 1px dashed #006900;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inline;
+    border-width: 1px;
+}
+
+input[type=text] {
+    padding: 5px 5px;
+    border: none;
+    background-color: #030;
+    color: #0f0;
+}
+
+mark {
+    background-color: #006900;
+    color: #fff;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid 00be00;
+    background-color: #000;
+    color: #0f0;
+}
+
+table {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border: none;
+    max-width: 99%;
+}
+
+table.navbar {
+    cellspacing: 10;
+}
+
+tr {
+    border: none;
+}
+
+th {
+    text-align:center;
+    border: none;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+button {
+    font-family: ComicSans;
+    background-color: #000000;
+    color: #00FF00;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+pre {
+    overflow: auto;
+}
+
+div.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* navbar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+/* navbar */
+li.navbar {
+    border-right: 1px dashed #006900;
+    display: inline-block;
+}
+
+li.navbar:last-child {
+    border-right:none;
+}
+
+li.navbar a {
+    display: block;
+    color: #00be00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to on hover */
+li.navbar a:hover {
+    background-color: #003300;
+}
+
+/*coustom scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0f0; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #009900; 
+}
+
+/*corner where the scrollbars meet*/
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
