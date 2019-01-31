@@ -3,7 +3,7 @@
 </script>
 <hr style='height:5px; visibility:hidden;' />
 <button onclick="getInvite()">Submit Invite Link</button>
-<p id='alert'></p>
+<p id='alert' style="color: #f00;"></p>
 <hr style='height:5px; visibility:hidden;' />
 <hr />
 <h2>So, if the app generates links for you, why did you make this??</h2>
