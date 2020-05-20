@@ -2,8 +2,13 @@
 ---
 
 @font-face {
+    font-family: Lexend;
+    src: url("/assets/fonts/lexend_deca/LexendDeca-Regular.ttf");
+}
+
+@font-face {
     font-family: ComicSans;
-    src: url(/comic.ttf);
+    src: url("/assets/fonts/comic_sans/comic.ttf");
 }
 
 /* Change Autocomplete styles in Chrome*/
@@ -25,7 +30,7 @@ select:-webkit-autofill:focus {
 /* @import "{{ site.theme }}"; */
 
 body {
-    font-family: ComicSans;
+    font-family: Lexend;
     text-align:center;
     background-image: none;
     background-color: #000000;
@@ -33,7 +38,7 @@ body {
 }
 
 footer {
-    font-family: ComicSans;
+    font-family: Lexend;
     left: 0;
     bottom: 0;
     width: 100%;
